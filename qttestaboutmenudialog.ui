@@ -42,7 +42,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>:/testabout/images/ToolTestAboutResult.png</pixmap>
+      <pixmap>:/testabout/images/TestAboutResult.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
