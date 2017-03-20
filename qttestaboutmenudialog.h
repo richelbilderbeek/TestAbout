@@ -28,10 +28,6 @@ private slots:
 
 private:
   Ui::QtTestAboutMenuDialog *ui;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 };
 
 } //~namespace ribi

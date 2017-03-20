@@ -1,13 +1,13 @@
-include(../TestAbout/TestAboutConsole.pri)
+include(TestAboutConsole.pri)
 
 HEADERS += \
-    ../TestAbout/qttestaboutmenudialog.h
+    $$PWD/qttestaboutmenudialog.h
 
 SOURCES += \
-    ../TestAbout/qttestaboutmenudialog.cpp
+    $$PWD/qttestaboutmenudialog.cpp
 
 FORMS += \
-    ../TestAbout/qttestaboutmenudialog.ui
+    $$PWD/qttestaboutmenudialog.ui
 
 RESOURCES += \
-    ../TestAbout/TestAbout.qrc \
+    $$PWD/TestAbout.qrc

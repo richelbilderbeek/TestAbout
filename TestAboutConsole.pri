@@ -1,8 +1,7 @@
-INCLUDEPATH += \
-    ../TestAbout
+INCLUDEPATH += $$PWD
 
 SOURCES += \
-    ../TestAbout/testaboutmenudialog.cpp
+    $$PWD/testaboutmenudialog.cpp
 
 HEADERS += \
-    ../TestAbout/testaboutmenudialog.h
+    $$PWD/testaboutmenudialog.h
