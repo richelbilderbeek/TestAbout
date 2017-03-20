@@ -38,10 +38,7 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 script: 
-  # Console
-  - qmake -qt=qt5 TestAboutConsole.pro
-  - make debug
-  # Desktop release profile run
+  # Desktop
   - make clean
   - qmake -qt=qt5 TestAboutDesktop.pro
   - make debug
