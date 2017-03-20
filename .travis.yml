@@ -39,7 +39,6 @@ before_script:
 
 script: 
   # Desktop
-  - make clean
   - qmake -qt=qt5 TestAboutDesktop.pro
   - make debug
   - ./TestAboutDesktop &
